@@ -66,8 +66,8 @@ batch_states = [
 
 ```
 Step 3.1  提取 block 输入
-  b1_input = [[-0.25],          b2_input = [[5.97],
-               [ 0.80]]                      [1.23]]
+  b1_input = [[-0.25], [5.97]]         b2_input = [[0.80] ,[1.23]]
+                                    
 
 Step 3.2  各 BlockModule 独立计算（假设简化权重）
   b1_feat = BlockModule_b1(b1_input)  →  shape [2, 8]
